@@ -2,9 +2,12 @@
     min-height: 500px;
 }
 .cat-container {
-    background-color: white;
+    background-color: azure;
 }
 .catalog h1 {
+    text-align: center;
+}
+.catalog h5 {
     text-align: center;
 }
 
