@@ -1,0 +1,10 @@
+.quantPicker button {
+    width: 50px;
+    padding: 3px 7px;
+}
+
+.quantPicker label {
+    display: inline-block;
+    margin: 0 5px;
+    font-weight: bold;
+}

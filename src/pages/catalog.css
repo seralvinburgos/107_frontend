@@ -1,0 +1,13 @@
+.catalog {
+    min-height: 500px;
+}
+.cat-container {
+    background-color: white;
+}
+.catalog h1 {
+    text-align: center;
+}
+
+.catalog .list-container {
+    
+}

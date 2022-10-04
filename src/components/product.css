@@ -1,0 +1,12 @@
+
+.product {
+    display: inline-block;
+    width: 270px;
+    height: 330px;
+    border: 1px solid #49674f;
+}   
+.list-group .btn {
+    border-radius: 50px;
+    background-color: #ebcb56c5;
+    color: black;
+}
