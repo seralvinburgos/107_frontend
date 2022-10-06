@@ -1,8 +1,20 @@
-
+import { useState } from "react";
 import "./product.css";
 import QuantPicker from './quantPicker';
 
 const Product = (props) => {
+
+    const [quantity, setQuantity] = useState(1);
+    const handleQuantChange = (qty) => {
+        console.log("QuantPicker changed",qty);
+        setQuantity(qty);
+    };
+
+    const getTotal=() => {
+        const total = quantity*props.data.price;
+        return total.toFixed(2);
+    }
+
     return (
         <div className="col">
             <div className="card col-10 m-auto shadow">
@@ -10,9 +22,10 @@ const Product = (props) => {
                 <div className="card-body">
                     <h5 className="card-title">{props.data.title}</h5>
                     <ul className="list-group list-group-flush">
-                        <li className="list-group-item">Total Price: {props.data.price}</li>
-                        <li className="list-group-item m-auto"><QuantPicker/></li>
-                        <a href="#" className="btn  col-6 m-auto my-2 shadow">Add</a>
+                        <li className="list-group-item text-center priceEach">Price: ${props.data.price.toFixed(2)}</li>
+                        <li className="list-group-item text-center totalPrice">Total: ${getTotal()}</li>
+                        <li className="list-group-item m-auto"><QuantPicker onChange={handleQuantChange}/></li>
+                        <a href="#" className="btn col-6 m-auto my-2 shadow">Add</a>
                     </ul>
                 </div>
             </div>

@@ -16,7 +16,7 @@ function Catalog() {
     return (
         <div className="catalog">
             <br />
-            <h1>All donuts freshly-made everyday</h1>
+            <h1>All donuts freshly-made daily</h1>
             <br />
             <h5>We have {products.length} products waiting for you</h5>
             <br />

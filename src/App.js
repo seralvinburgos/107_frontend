@@ -3,6 +3,8 @@ import './App.css';
 import NavBar from './components/navBar';
 import Footer from './components/footer';
 import Catalog from './pages/catalog';
+import WishList from './components/wishList';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
@@ -12,6 +14,8 @@ function App() {
       <NavBar />
 
       <Catalog />
+
+      <WishList />
 
       <Footer />
     </div>

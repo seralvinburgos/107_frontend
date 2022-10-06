@@ -5,6 +5,10 @@
     height: 330px;
     border: 1px solid #49674f;
 }   
+.list-group .totalPrice {
+    color: rgb(245, 83, 83);
+    font-weight: bold;
+}
 .list-group .btn {
     border-radius: 50px;
     background-color: #ebcb56c5;
