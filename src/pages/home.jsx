@@ -1,4 +1,4 @@
- import "./home.css";
+import "./home.css";
 
 
  
@@ -7,20 +7,22 @@
       <div className="container-fluid">
          <div className="top_main container-fluid text-center mt-3">
                 <div className="d-flex flex-row admin-top mx-auto">
-                    <div className="top-1 position-relative col-12 shadow">
+                    <div className="top_1 position-relative col-12 shadow rounded-top">
                         <img src="./images/back10.jpg" className="donut_back img-fluid" alt="back3" />
                             <div className="top_2 position-absolute top-0 start-0 mt-5 ms-5">
-                                <p className="title">Donut <span>SHOP</span></p>
+                                <p className="title d-inline-flex">Donut  <span style={{'--i':'1'}}>S</span><span style={{'--i':'2'}}>H</span><span style={{'--i':'3'}}>O</span><span style={{'--i':'4'}}>P</span>
+                                 
+                                </p>
                             </div>
-                            <div className="top_3 position-absolute bottom-50 start-50 ms-5">
+                            <div className="top_3 position-absolute bottom-50 start-50 ms-5 mt-4">
                                 <p className="title">Freshly Made Everyday</p>
                             </div>
                     </div>
                 </div>
          </div>
          <div className="aboutUs">
-            <div className="container-fluid text-center mt-3">
-               <div className="threePic d-flex flex-row mx-auto position-relative gap-1">
+            <div className="text-center mt-3">
+               <div className="threePic container-fluid d-inline-flex flex-row justify-content-center mx-auto position-relative gap-1">
                   <div className="leftPic col-4 shadow rounded">
                      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                         <div class="carousel-indicators">
@@ -49,7 +51,7 @@
                      </button>
                      </div>
                   </div>
-                  <div className="middlePic col-3 mx-5 shadow rounded">
+                  <div className="middlePic col-3 mx-5 shadow rounded-bottom">
                      <div className="middleAbout">
                         <h3>About Us</h3>
                      </div>
@@ -60,7 +62,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas harum dicta praesentium minima, ut officiis culpa est ab expedita ea?</p>
                      </div>
                   </div>
-                  <div className="rightPic col-4 shadow rounded">
+                  <div className="rightPic col-4 shadow rounded-end">
                   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                      <div class="carousel-inner">
                         <div class="carousel-item active">

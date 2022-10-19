@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
 .admin-top .donut_back {
-    height: 50rem;
+    height: 45rem;
     width: 100%;
-    border-radius: 10px;
     object-fit: cover;
  }
  .admin-top .top_2 .title {
@@ -14,13 +13,23 @@
     font-weight: 500;
     text-transform: none;
  }
- .admin-top .top_2 span {
-    letter-spacing: 30px;
-    font-weight: bold;
-    color: rgba(227, 197, 121, 0.888);
- }
+ .admin-top .top_2 .title span {
+   position: relative;
+   display: inline-block;
+   letter-spacing: 15px;
+   font-weight: bold;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: rgba(227, 197, 121, 0.888);
+   animation: flip 2s infinite;
+   animation-delay: calc(.2s * var(--i));
+}
+@keyframes flip {
+  0%, 80% {
+     transform: rotateY(360deg);
+  }
+}
  .admin-top .top_3 .title {
-    color: rgba(0, 0, 0, 0.733);
+    color: azure;
     letter-spacing: 8px;
     font-size: 4rem;
     font-family: 'Gochi Hand', cursive;
