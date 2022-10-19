@@ -13,9 +13,10 @@ const Admin = () => {
               
             </div>
             <br />
-            <div className="top row col-12 mx-auto gap-4">
+            <div className="container">
+            <div className="top d-inline-flex row col-12 mx-auto gap-4">
                 <div className="sec-header col border rounded-top fw-bold mb-2">
-                    <p class="fs-4">Products</p>
+                    <p class="fs-4 top-50">Products</p>
                 </div>
                 <div className="sec-header col border rounded-top fw-bold mb-2">
                     <p class="fs-4">Discounts</p>
@@ -23,12 +24,13 @@ const Admin = () => {
             </div>
            
             <div className="bottom row col-12 mx-auto rounded gap-4">
-                <div className="sec-header col border rounded-bottom">
-                <p class="fs-5 align-center"></p>
+                <div className="sec-header col border text-center rounded-bottom">
+                <p class="fs-5"></p>
                 </div>
                 <div className="sec-header col border rounded-bottom">
                 <p class="fs-5 "></p>
                 </div>
+            </div>
             </div>
             <div className="bottom-extra">
 
