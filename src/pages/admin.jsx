@@ -13,21 +13,21 @@ const Admin = () => {
               
             </div>
             <br />
-            <div className="container">
-            <div className="top d-inline-flex row col-12 mx-auto gap-4">
-                <div className="sec-header col border rounded-top fw-bold mb-2">
+            <div className="container-fluid">
+            <div className="topHeaders d-inline-flex flex-row col-12 mx-auto gap-2">
+                <div className="sec-header col-8 border rounded-top fw-bold mb-2">
                     <p class="fs-4 ">Products</p>
                 </div>
-                <div className="sec-header col border rounded-top fw-bold mb-2">
+                <div className="sec-header col-4 border rounded-top fw-bold mb-2">
                     <p class="fs-4">Discounts</p>
                 </div>
             </div>
            
-            <div className="bottom row col-12 mx-auto rounded gap-4">
-                <div className="sec-header col border text-center rounded-bottom">
+            <div className="bottom d-inline-flex flex-row col-12 mx-auto rounded gap-2">
+                <div className="sec-header col-8 border text-center rounded-bottom">
                 <p class="fs-5"></p>
                 </div>
-                <div className="sec-header col border rounded-bottom">
+                <div className="sec-header col-4 border rounded-bottom">
                 <p class="fs-5 "></p>
                 </div>
             </div>
