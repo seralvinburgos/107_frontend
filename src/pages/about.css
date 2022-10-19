@@ -10,8 +10,8 @@
  }
  .about .admin-top .top_2 .title {
     color: white;
-    title-spacing: 5px;
-    font-family: 'Gochi Hand', cursive;
+    letter-spacing: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3.5rem;
     text-transform: uppercase;
  }

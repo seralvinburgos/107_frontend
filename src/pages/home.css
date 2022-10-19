@@ -5,7 +5,7 @@
     width: 100%;
     object-fit: cover;
  }
- .admin-top .top_2 .title {
+ .admin-top .top_2 #donutTitle{
     color: rgba(0, 0, 0, 0.733);
     letter-spacing: 8px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

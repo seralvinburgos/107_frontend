@@ -14,12 +14,15 @@
 }
 .catalog .admin-top .top_2 .title {
     color: white;
-    font-family: 'Gochi Hand', cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3.5rem;
-    letter-spacing: 2px;
+    letter-spacing: 10px;
     font-weight: 500;
     text-transform: uppercase;
  }
 .catalog h5 {
     text-align: center;
+}
+.list-container {
+    height: 50rem;
 }

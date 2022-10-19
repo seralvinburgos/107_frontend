@@ -20,7 +20,7 @@ function Catalog() {
                     <div className="top-1 position-relative col-12 shadow">
                         <img src="./images/back7.jpg" className="img-fluid opacity-75" alt="back4" />
                             <div className="top_2 position-absolute top-50 start-50">
-                                <p className="title">Freshly-Made Donuts</p>
+                                <p className="title">Freshly-Made</p>
                             </div>
                     </div>
                 </div>
@@ -28,8 +28,8 @@ function Catalog() {
             <br />
             <h5>We have {products.length} products waiting for you</h5>
             <br />
-            <div className="list-container container d-flex justify-content-around flex-wrap mb-3">
-                {products.map(prod => <div key={prod._id} className="row col-4 mb-3">
+            <div className="list-container container-fluid d-flex flex-wrap justify-content-around mb-3">
+                {products.map(prod => <div key={prod._id} className="row col mb-3">
                 <Product  data={prod} />
                 </div> )}
             </div>

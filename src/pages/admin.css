@@ -11,10 +11,11 @@
 }
 .admin-top .top p {
 }
-.admin-top .top-2 p {
+.admin-top .top_2 .title {
    color: white;
    letter-spacing: 15px;
-   font-family: 'Gochi Hand', cursive;
+   font-size: 3rem;
+   font-family: Impact, "Helvetica Neue", Arial, Helvetica, sans-serif;
    text-transform: uppercase;
 }
 .bottom {
@@ -22,6 +23,11 @@
 }
 .sec-header {
     background-color: white;
+    color: rgba(0, 0, 0, 0.822);
+    font-family: Impact, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+
+
 }
 .bottom-extra {
     

@@ -19,7 +19,7 @@ const Product = (props) => {
 
     return (
         <div className="col">
-            <div className="card col-10 m-auto shadow">
+            <div className="card col m-auto" style={{'width':'16rem'}}>
                 <img src={"/images/" + props.data.image} className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title">{props.data.title}</h5>
