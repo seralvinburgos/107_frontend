@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from './components/navBar';
 import Footer from './components/footer';
 import Catalog from './pages/catalog';
-import WishList from './components/wishList';
+import WishList from './pages/wishList';
 import Home from './pages/home';
 import About from './pages/about';
 import Admin from './pages/admin';

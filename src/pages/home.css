@@ -1,5 +1,63 @@
-.container img {
-   
-  
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
+/* .top_main .top-1 {
+    
 }
+.top_main .admin-top {
+    height: 200rem;
+} */
+
+.admin-top .donut_back {
+    height: 50rem;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+ }
+ .admin-top .top_2 .title {
+    color: rgba(0, 0, 0, 0.733);
+    letter-spacing: 8px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 5rem;
+    font-weight: 500;
+    text-transform: none;
+ }
+ .admin-top .top_2 span {
+    letter-spacing: 30px;
+    font-weight: bold;
+ }
+ .admin-top .top_3 .title {
+    color: rgba(0, 0, 0, 0.733);
+    letter-spacing: 8px;
+    font-size: 4rem;
+    font-family: 'Gochi Hand', cursive;
+    text-transform: none;
+    font-weight: 500;
+ }
+ .aboutUs .threePic img {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+ }
+ .aboutUs .middlePic {
+    background-image: url(/public/images/stack4.jpg);
+    background: hsl(0 0% 100%, 0.5);
+    backdrop-filter: blur(2rem);
+    background-size: cover;
+ }
+ .aboutUs .middlePic h3 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.677);
+    margin-top: 3rem;
+ }
+ .aboutUs .middlePic h4 {
+    font-family: 'Gochi Hand', cursive;
+    color: goldenrod;
+ }
+ .aboutUs .middlePic p {
+    font-family: 'Gochi Hand', cursive;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+ }

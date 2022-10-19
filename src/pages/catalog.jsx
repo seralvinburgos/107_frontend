@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Product from "../components/product";
-import "./catalog.css"
+import "./catalog.css";
 import Dataservice from '../services/dataService';
 
 function Catalog() {
@@ -15,8 +15,16 @@ function Catalog() {
 
     return (
         <div className="catalog">
-            <br />
-            <h1>All donuts freshly-made daily</h1>
+            <div className="container-fluid text-center mt-3">
+                <div className="d-flex flex-row admin-top mx-auto">
+                    <div className="top-1 position-relative col-12 shadow">
+                        <img src="./images/back7.jpg" className="img-fluid opacity-75" alt="back4" />
+                            <div className="top_2 position-absolute top-50 start-50">
+                                <p className="title">Freshly-Made Donuts</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
             <br />
             <h5>We have {products.length} products waiting for you</h5>
             <br />
