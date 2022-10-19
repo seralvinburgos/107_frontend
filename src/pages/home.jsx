@@ -11,7 +11,6 @@ import "./home.css";
                         <img src="./images/back10.jpg" className="donut_back img-fluid" alt="back3" />
                             <div className="top_2 position-absolute top-0 start-0 mt-5 ms-5">
                                 <p className="title d-inline-flex">Donut  <span style={{'--i':'1'}}>S</span><span style={{'--i':'2'}}>H</span><span style={{'--i':'3'}}>O</span><span style={{'--i':'4'}}>P</span>
-                                 
                                 </p>
                             </div>
                             <div className="top_3 position-absolute bottom-50 start-50 ms-5 mt-4">
