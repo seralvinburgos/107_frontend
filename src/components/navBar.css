@@ -1,4 +1,7 @@
-
-.navbar h1 {
-    color: red;
+#title {
+    color: rgba(227, 197, 121, 0.888);
+}
+#searchBtn {
+    color: rgba(227, 197, 121, 0.888);
+    border-color: rgba(227, 197, 121, 0.888);;
 }

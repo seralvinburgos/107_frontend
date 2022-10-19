@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./product.css";
 import QuantPicker from './quantPicker';
 
+import {Link} from 'react-router-dom';
+
 const Product = (props) => {
 
     const [quantity, setQuantity] = useState(1);
@@ -25,7 +27,7 @@ const Product = (props) => {
                         <li className="list-group-item text-center priceEach">Price: ${props.data.price.toFixed(2)}</li>
                         <li className="list-group-item text-center totalPrice">Total: ${getTotal()}</li>
                         <li className="list-group-item m-auto"><QuantPicker onChange={handleQuantChange}/></li>
-                        <a href="#" className="btn col-6 m-auto my-2 shadow">Add</a>
+                        <Link to="#" className="btn col-6 m-auto my-2 shadow">Add</Link>
                     </ul>
                 </div>
             </div>
