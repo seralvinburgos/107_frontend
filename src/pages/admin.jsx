@@ -16,7 +16,7 @@ const Admin = () => {
             <div className="container">
             <div className="top d-inline-flex row col-12 mx-auto gap-4">
                 <div className="sec-header col border rounded-top fw-bold mb-2">
-                    <p class="fs-4 top-50">Products</p>
+                    <p class="fs-4 ">Products</p>
                 </div>
                 <div className="sec-header col border rounded-top fw-bold mb-2">
                     <p class="fs-4">Discounts</p>
