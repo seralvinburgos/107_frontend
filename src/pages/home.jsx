@@ -1,7 +1,7 @@
  import "./home.css";
 
- 
 
+ 
  const Home = () => {
    return (
       <div className="container-fluid">
@@ -22,32 +22,32 @@
             <div className="container-fluid text-center mt-3">
                <div className="threePic d-flex flex-row mx-auto position-relative gap-1">
                   <div className="leftPic col-4 shadow rounded">
-                  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                  <div class="carousel-indicators">
-                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  </div>
-                  <div class="carousel-inner">
-                     <div class="carousel-item active">
-                        <img src="./images/back1.jpg" class="d-block w-100" alt="..." />
+                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <img src="./images/back1.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                           <img src="./images/back2.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                           <img src="./images/stack3.jpg" class="d-block w-100" alt="..." />
+                        </div>
                      </div>
-                     <div class="carousel-item">
-                        <img src="./images/back2.jpg" class="d-block w-100" alt="..." />
-                     </div>
-                     <div class="carousel-item">
-                        <img src="./images/stack3.jpg" class="d-block w-100" alt="..." />
-                     </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                      <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                     </button>
+                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
                      <span class="visually-hidden">Next</span>
-                  </button>
-                  </div>
+                     </button>
+                     </div>
                   </div>
                   <div className="middlePic col-3 mx-5 shadow rounded">
                      <div className="middleAbout">
@@ -61,12 +61,7 @@
                      </div>
                   </div>
                   <div className="rightPic col-4 shadow rounded">
-                  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                     </div>
+                  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                      <div class="carousel-inner">
                         <div class="carousel-item active">
                            <img src="./images/back13.jpg" class="d-block w-100" alt="..." />
@@ -78,11 +73,11 @@
                            <img src="./images/back15.jpg" class="d-block w-100" alt="..." />
                         </div>
                      </div>
-                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                      </button>
-                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                      </button>
