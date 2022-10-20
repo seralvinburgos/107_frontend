@@ -15,8 +15,16 @@ import { motion } from "framer-motion";
                     <div className="top_1 position-relative col-12 shadow rounded-top">
                         <img src="./images/back10.jpg" className="donut_back img-fluid" alt="back3" />
                             <div className="top_2 position-absolute top-0 start-0 mt-5 ms-5">
-                                <p className="title d-inline-flex" id="donutTitle">Donut  <span style={{'--i':'1'}}>S</span><span style={{'--i':'2'}}>H</span><span style={{'--i':'3'}}>O</span><span style={{'--i':'4'}}>P</span>
-                                </p>
+                                <motion.p 
+                                animate={{ scale: 1 }}
+                                initial={{ scale: 0.8 }}
+                                transition={{
+                                 type: "spring",
+                                 delay: 1
+                                 
+                               }}
+                                className="title d-inline-flex" id="donutTitle">Donut  <span style={{'--i':'1'}}>S</span><span style={{'--i':'2'}}>H</span><span style={{'--i':'3'}}>O</span><span style={{'--i':'4'}}>P</span>
+                                </motion.p>
                             </div>
                             <div className="top_3 position-absolute bottom-50 start-50 ms-5 mt-4">
                                 <p className="title">Freshly Made Everyday</p>
