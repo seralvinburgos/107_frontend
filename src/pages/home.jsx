@@ -1,4 +1,5 @@
 import "./home.css";
+import {Link} from 'react-router-dom';
 
  
  const Home = () => {
@@ -22,30 +23,30 @@ import "./home.css";
             <div className="text-center mt-3">
                <div className="threePic container-fluid d-inline-flex flex-row justify-content-center mx-auto position-relative gap-1">
                   <div className="leftPic col-4 shadow rounded">
-                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                        <div class="carousel-indicators">
-                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                     <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
+                        <div className="carousel-indicators">
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
-                        <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <img src="./images/back1.jpg" class="d-block w-100" alt="..." />
+                        <div className="carousel-inner">
+                        <div className="carousel-item active">
+                           <img src="./images/back1.jpg" className="d-block w-100" alt="..." />
                         </div>
-                        <div class="carousel-item">
-                           <img src="./images/back2.jpg" class="d-block w-100" alt="..." />
+                        <div className="carousel-item">
+                           <img src="./images/back2.jpg" className="d-block w-100" alt="..." />
                         </div>
-                        <div class="carousel-item">
-                           <img src="./images/stack3.jpg" class="d-block w-100" alt="..." />
+                        <div className="carousel-item">
+                           <img src="./images/stack3.jpg" className="d-block w-100" alt="..." />
                         </div>
                      </div>
-                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                     <span class="visually-hidden">Previous</span>
+                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span className="visually-hidden">Previous</span>
                      </button>
-                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                     <span class="visually-hidden">Next</span>
+                     <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span className="visually-hidden">Next</span>
                      </button>
                      </div>
                   </div>
@@ -61,31 +62,35 @@ import "./home.css";
                      </div>
                   </div>
                   <div className="rightPic col-4 shadow rounded-end">
-                  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <img src="./images/back13.jpg" class="d-block w-100" alt="..." />
+                  <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
+                     <div className="carousel-inner">
+                        <div className="carousel-item active">
+                           <img src="./images/back13.jpg" className="d-block w-100" alt="..." />
                         </div>
-                        <div class="carousel-item">
-                           <img src="./images/back14.jpg" class="d-block w-100" alt="..." />
+                        <div className="carousel-item">
+                           <img src="./images/back14.jpg" className="d-block w-100" alt="..." />
                         </div>
-                        <div class="carousel-item">
-                           <img src="./images/back15.jpg" class="d-block w-100" alt="..." />
+                        <div className="carousel-item">
+                           <img src="./images/back15.jpg" className="d-block w-100" alt="..." />
                         </div>
                      </div>
-                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
                      </button>
-                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                     <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
                      </button>
                      </div>
                   </div>
                </div>
             </div>
          </div>
+         <br />
+         <Link className="btn btn-lg btn-dark" to="/catalog">
+                Check out our amazing Catalog
+            </Link>
       </div>
 
       

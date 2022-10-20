@@ -1,15 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
-* {
-  
-}
 .admin-top img {
    height: 200px;
    width: 100%;
    border-radius: 10px;
    object-fit: cover;
-}
-.admin-top .topHeaders p {
 }
 .admin-top .top_2 .title {
    color: white;
@@ -29,8 +24,5 @@
     letter-spacing: 2px;
 
 
-}
-.bottom-extra {
-    
 }
 
