@@ -41,6 +41,48 @@ const catalog = [
         category: "Donut",
         image: "test6.png"
     },
+    {
+        _id: "7",
+        title: "Glazed Cinnamon Roll",
+        price: 3.99,
+        category: "Donut",
+        image: "test7.png"
+    },
+    {
+        _id: "8",
+        title: "Cake Sprinkles",
+        price: 3.99,
+        category: "Donut",
+        image: "test8.png"
+    },
+    {
+        _id: "9",
+        title: "Blueberry Cake",
+        price: 3.99,
+        category: "Donut",
+        image: "test9.png"
+    },
+    {
+        _id: "10",
+        title: "Cruller",
+        price: 3.99,
+        category: "Donut",
+        image: "test10.png"
+    },
+    {
+        _id: "11",
+        title: "Choco Cruller",
+        price: 3.99,
+        category: "Donut",
+        image: "test11.png"
+    },
+    {
+        _id: "12",
+        title: "Reese's",
+        price: 3.99,
+        category: "Donut",
+        image: "test12.png"
+    },
 ];
 
 

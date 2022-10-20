@@ -27,7 +27,7 @@ const Product = (props) => {
                         <li className="list-group-item text-center priceEach">Price: ${props.data.price.toFixed(2)}</li>
                         <li className="list-group-item text-center totalPrice">Total: ${getTotal()}</li>
                         <li className="list-group-item m-auto"><QuantPicker onChange={handleQuantChange}/></li>
-                        <Link to="#" className="btn col-6 m-auto my-2 shadow">Add</Link>
+                        <Link to="#" type="button" className="btn btn-warning col-6 m-auto my-2">Add</Link>
                     </ul>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./wishList.css";
-
+import { motion } from "framer-motion";
 
 const WishList = () => {
     const [text, setText] = useState("");
@@ -16,7 +16,11 @@ const WishList = () => {
         setText("");
     }
     return(
-        <div className="wish-list">
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        className="wish-list">
             <div className="container-fluid text-center mt-3">
                 <div className="d-flex flex-row admin-top mx-auto">
                     <div className="top-1 position-relative col-12 shadow">
@@ -41,7 +45,7 @@ const WishList = () => {
             <div className="bottom-extra">
 
             </div>
-        </div>
+        </motion.div>
     )
 }
 

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Product from "../components/product";
 import "./catalog.css";
 import Dataservice from '../services/dataService';
+import { motion } from 'framer-motion';
 
 function Catalog() {
     const [products, setProducts] = useState([]);
@@ -14,7 +15,11 @@ function Catalog() {
     }, []);
 
     return (
-        <div className="catalog">
+        <motion.div 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        className="catalog">
             <div className="container-fluid text-center mt-3">
                 <div className="d-flex flex-row admin-top mx-auto">
                     <div className="top-1 position-relative col-12 shadow">
@@ -33,7 +38,7 @@ function Catalog() {
                 <Product  data={prod} />
                 </div> )}
             </div>
-        </div>
+        </motion.div>
     );
 }
 

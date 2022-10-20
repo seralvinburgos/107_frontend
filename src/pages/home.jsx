@@ -1,10 +1,15 @@
 import "./home.css";
 import {Link} from 'react-router-dom';
+import { motion } from "framer-motion";
 
  
  const Home = () => {
    return (
-      <div className="container-fluid">
+      <motion.div 
+      initial={{ opacity: 0 }} 
+      animate={{ opacity: 1 }} 
+      exit={{ opacity: 0 }} 
+      className="container-fluid">
          <div className="top_main container-fluid text-center mt-3">
                 <div className="d-flex flex-row admin-top mx-auto">
                     <div className="top_1 position-relative col-12 shadow rounded-top">
@@ -91,7 +96,7 @@ import {Link} from 'react-router-dom';
          <Link className="btn btn-lg btn-dark" to="/catalog">
                 Check out our amazing Catalog
             </Link>
-      </div>
+      </motion.div>
 
       
     );

@@ -1,5 +1,6 @@
 import "./admin.css";
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 
 const Admin = () => {
     const [coupon, setCoupon] = useState({});
@@ -52,7 +53,11 @@ const Admin = () => {
     
 
     return (
-        <div className="container-fluid text-center mt-3">
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        className="container-fluid text-center mt-3">
             <div className="d-flex flex-row admin-top mx-auto">
                 <div className="top_1 position-relative col-12 shadow">
                     <img src="./images/back2.jpg" className="img-fluid opacity-75" alt="back2" />
@@ -131,7 +136,7 @@ const Admin = () => {
             <div className="bottom-extra">
             
             </div>
-        </div>
+        </motion.div>
 
     );
 };

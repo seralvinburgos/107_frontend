@@ -20,9 +20,9 @@ const QuantPicker = (props) => {
 
     return(
         <div className="quantPicker">
-            <button className="btn btn-sm btn-secondary shadow" onClick={increase}>+</button>
+            <button className="btn btn-sm btn-secondary" onClick={increase}>+</button>
             <label>{quantity}</label>
-            <button className="btn btn-sm btn-secondary shadow" disabled={quantity === 1} onClick={decrease}>-</button>
+            <button className="btn btn-sm btn-secondary" disabled={quantity === 1} onClick={decrease}>-</button>
         </div>
     );
 };

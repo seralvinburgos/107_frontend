@@ -12,6 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
     <div className="cat-container">
       <NavBar />
 
+      <AnimatePresence exitBeforeEnter>
       <Routes> 
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
@@ -27,6 +29,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/admin" element={<Admin />} />
       </Routes>
+      </AnimatePresence>
+      
       
       <Footer />
     </div>         
