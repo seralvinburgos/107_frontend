@@ -1,4 +1,3 @@
-
 .product {
     display: inline-block;
     width: 270px;
@@ -12,5 +11,5 @@
     background-color: #ebcb56c5;
     color: black; 
     border: none;
-    border-radius: 50px;
+    border-radius: 0;
 }

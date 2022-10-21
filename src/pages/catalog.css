@@ -5,9 +5,9 @@
     font-family: 'Space Grotesk', sans-serif;
 }
 .admin-top img {
-    height: 200px;
+    height: 140px;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0;
     object-fit: cover;
  }
 .cat-container {

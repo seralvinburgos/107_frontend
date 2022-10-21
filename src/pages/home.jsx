@@ -145,7 +145,7 @@ import { motion } from "framer-motion";
                <br />
                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis explicabo reiciendis vitae cupiditate laborum eos totam asperiores, debitis eius beatae.</p>
                <br />
-               <Link className="btn btn-lg btn-dark" to="/catalog">
+               <Link className="btn btn-lg btn-dark" id="shopNowBtn" to="/catalog">
                 Shop Now
             </Link>
             </div>

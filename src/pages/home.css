@@ -118,6 +118,9 @@
    font-size: 1.8rem;
    text-transform: uppercase;
    font-weight: bold;
+} 
+#shopNowBtn {
+   border-radius: 0;
 }
 .third-sec {
    height: 550px;
@@ -139,7 +142,7 @@
    width: 50%;
 }
 .third-sec .third_right img {
-
+   object-fit: cover;
 }
  .extra_space {
    height: 10rem;

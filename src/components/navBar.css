@@ -6,13 +6,15 @@
 .navbar .form {
     font-family: 'Space Grotesk', sans-serif;
 }
-.navbar .form #searchBtn {
-    font-family: 'Space Grotesk', sans-serif;
-}
 #title {
     color: rgba(227, 197, 121, 0.888);
 }
+#navSearchInput {
+    border-radius: 0;
+}
 #searchBtn {
     color: rgba(227, 197, 121, 0.888);
-    border-color: rgba(227, 197, 121, 0.888);;
+    border-color: rgba(227, 197, 121, 0.888);
+    border-radius: 0;
+    font-family: 'Space Grotesk', sans-serif;
 }
