@@ -55,6 +55,7 @@
     backdrop-filter: blur(0.2rem);
  }
  .aboutUs .middlePic h4 {
+   padding: 0 3px;
     font-family: 'Space Grotesk', sans-serif;
     color: goldenrod;
     backdrop-filter: blur(0.2rem);
@@ -64,6 +65,7 @@
     color: rgba(0, 0, 0, 0.742);
     font-size: 1.2rem;
     margin-top: 5rem;
+    padding: 0 10px;
     backdrop-filter: blur(0.2rem);
  }
  .second_sec {
