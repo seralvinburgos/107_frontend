@@ -1,6 +1,9 @@
 .quantPicker button {
-    width: 50px;
+    width: 35px;
+    margin: 0 5px;
     padding: 3px 7px;
+    border-radius: 50px;
+    border: none;
 }
 
 .quantPicker label {

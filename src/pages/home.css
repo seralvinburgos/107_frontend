@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 .admin-top .donut_back {
     height: 45rem;
     width: 100%;
     object-fit: cover;
+    border-radius: 0;
  }
  .admin-top .top_2 #donutTitle{
     color: rgba(0, 0, 0, 0.733);
@@ -32,15 +33,14 @@
     color: azure;
     letter-spacing: 8px;
     font-size: 4rem;
-    font-family: 'Gochi Hand', cursive;
+    font-family: 'Space Grotesk', sans-serif;
     text-transform: none;
-    font-weight: 500;
+    font-weight: bold;
  }
  .aboutUs .threePic img {
     height: 450px;
     width: 100%;
     object-fit: cover;
-    border-radius: 10px;
  }
  .aboutUs .middlePic {
     background: hsl(0 0% 80% / 0.5);
@@ -55,14 +55,93 @@
     backdrop-filter: blur(0.2rem);
  }
  .aboutUs .middlePic h4 {
-    font-family: 'Gochi Hand', cursive;
+    font-family: 'Space Grotesk', sans-serif;
     color: goldenrod;
     backdrop-filter: blur(0.2rem);
  }
  .aboutUs .middlePic p {
-    font-family: 'Gochi Hand', cursive;
+    font-family: 'Space Grotesk', sans-serif;
     color: rgba(0, 0, 0, 0.742);
     font-size: 1.2rem;
     margin-top: 5rem;
     backdrop-filter: blur(0.2rem);
+ }
+ .second_sec {
+   height: 600px;
+   width: 100%;
+   display: inline-flex;
+   margin-inline: auto;
+ } 
+ .second_sec .second_left {
+   height: 600px;
+   width: 50%;
+   background-color: lightblue;
+ }
+ .second_sec.second_left img {
+   object-fit: scale-down;
+ }
+ .second_sec .second_right {
+   height: 600px;
+   width: 50%;
+   display: flex;
+ }
+ .second_sec .second_right .small_one {
+   height: 295px;
+   width: 49%;
+   background-color:lightblue;
+   display: flex;
+   position: relative;
+ }
+ .second_sec .second_right .small_two {
+   height: 295px;
+   width: 49%;
+   background-color: lightblue;
+ }
+ .second_sec .second_right .small_three {
+   height: 295px;
+   width: 49%;
+   margin-top: 2px;
+   background-color: lightblue;
+ }
+ .second_sec .second_right .small_four {
+   height: 295px;
+   width: 49%;
+   margin-top: 2px;
+   background-color: lightblue;
+ }
+#amazingBtn {
+   background-color: azure;
+   color: black;
+   border: none;
+   margin-top: 3rem;
+   font-family: 'Space Grotesk', sans-serif;
+   font-size: 1.8rem;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.third-sec {
+   height: 550px;
+   width: 100%;
+}
+.third-sec .third_left {
+   height: 375px;
+   width: 50%;
+   padding: 5rem 5rem;
+   padding-left: 6rem;
+   padding-right: 6rem;
+   margin-top: 5rem;
+   display: block;
+   font-family: 'Space Grotesk', sans-serif;
+   text-transform: uppercase;
+}
+.third-sec .third_right {
+   height: 550px;
+   width: 50%;
+}
+.third-sec .third_right img {
+
+}
+ .extra_space {
+   height: 10rem;
+
  }

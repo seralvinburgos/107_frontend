@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 .admin-top img {
     height: 200px;
     width: 100%;
     border-radius: 10px;
     object-fit: cover;
- }
- .admin-top .top p {
  }
  .wish-list .admin-top .top_2 .title {
     color: rgba(0, 0, 0, 0.683);
@@ -15,7 +13,12 @@
     font-size: 3.5rem;
     text-transform: uppercase;
  }
+ .wish-list input {
+   font-family: 'Space Grotesk', sans-serif;
+ }
+ .wish-list #button-addon2 {
+   font-family: 'Space Grotesk', sans-serif;
+ }
  .bottom-extra {
-    height: 100rem;
     background-color: azure;
  }

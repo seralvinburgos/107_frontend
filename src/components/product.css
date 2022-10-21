@@ -3,7 +3,6 @@
     display: inline-block;
     width: 270px;
     height: 330px;
-    border: 1px solid #49674f;
 }   
 .list-group .totalPrice {
     color: rgb(245, 83, 83);
@@ -11,5 +10,7 @@
 }
 .list-group .btn {
     background-color: #ebcb56c5;
-    color: black;
+    color: black; 
+    border: none;
+    border-radius: 50px;
 }

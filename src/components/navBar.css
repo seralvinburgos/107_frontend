@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+.navbar {
+    font-family: 'Space Grotesk', sans-serif;
+}
+.navbar .form {
+    font-family: 'Space Grotesk', sans-serif;
+}
+.navbar .form #searchBtn {
+    font-family: 'Space Grotesk', sans-serif;
+}
 #title {
     color: rgba(227, 197, 121, 0.888);
 }
