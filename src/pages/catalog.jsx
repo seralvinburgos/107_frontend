@@ -33,7 +33,7 @@ function Catalog() {
             <br />
             <h5>We have {products.length} products waiting for you</h5>
             <br />
-            <div className="list-container container-fluid d-flex flex-wrap justify-content-around mb-3">
+            <div className="list-container container-xxl d-flex flex-wrap justify-content-around mb-3">
                 {products.map(prod => <div key={prod._id} className="row col mb-3">
                 <Product  data={prod} />
                 </div> )}

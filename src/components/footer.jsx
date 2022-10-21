@@ -20,7 +20,7 @@ function Footer() {
                 <br />
                 <p>Subscribe for special offers and deals.</p>
                 <div className="subscribe form-floating mb-3">
-                    <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
+                    <input type="email" className="form-control subInput" id="floatingInput" placeholder="name@example.com" />
                     <label for="floatingInput">Email address</label>
                 </div>
             </div>
