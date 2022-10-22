@@ -1,12 +1,12 @@
-import { useState } from "react";
 import "./product.css";
 import QuantPicker from './quantPicker';
-
-import {Link} from 'react-router-dom';
+import { useState, useContext } from "react";
+import StoreContext from "../state/storeContext";
 
 const Product = (props) => {
-
     const [quantity, setQuantity] = useState(1);
+    const addToCart = useContext(StoreContext).addToCart;
+
     const handleQuantChange = (qty) => {
         console.log("QuantPicker changed",qty);
         setQuantity(qty);
@@ -15,7 +15,12 @@ const Product = (props) => {
     const getTotal=() => {
         const total = quantity*props.data.price;
         return total.toFixed(2);
-    }
+    };
+
+    const handleAdd = () => {
+        let pForCart = {...props.data, quantity: quantity};
+        addToCart(pForCart);
+    };
 
     return (
         <div className="col">
@@ -27,28 +32,13 @@ const Product = (props) => {
                         <li className="list-group-item text-center priceEach border-0">Price: ${props.data.price.toFixed(2)}</li>
                         <li className="list-group-item text-center totalPrice border-0">Total: ${getTotal()}</li>
                         <li className="list-group-item m-auto border-0"><QuantPicker onChange={handleQuantChange}/></li>
-                        <Link to="#" type="button" className="btn btn-warning col-6 m-auto my-2">Add</Link>
+                        <button onClick={handleAdd} to="#" type="button" className="btn btn-warning col-6 m-auto my-2">Add</button>
                     </ul>
                 </div>
             </div>
         </div>
     );
 }; 
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    
 
 
 export default Product;

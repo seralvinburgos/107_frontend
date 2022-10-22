@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+.cart {
+    height: 85rem;
+    padding-bottom: 10rem;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.cartTopSect {
+    height: 7rem;
+    background-color: white;
+}
+.cart h2 {
+    text-align: center;
+}
+.cart h5 {
+    color: #6a6e6b;
+    text-align: center;
+} 
+.cartProductList {
+    height: 25rem;
+    background-color: white;
+}
+.cart .products li {
+    list-style: none;
+
+}
+.products {
+    padding: 1rem 1rem;
+}
+
