@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 .body_page {
-   padding-bottom: 20rem;
+   padding-bottom: 10rem;
 }
 .admin-top .donut_back {
-    height: 45rem;
+    height: 40rem;
     width: 100%;
     object-fit: cover;
     border-radius: 0;
@@ -34,8 +34,9 @@
 }
  .admin-top .top_3 .title {
     color: azure;
+    padding-left: 3rem;
     letter-spacing: 8px;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-family: 'Space Grotesk', sans-serif;
     text-transform: none;
     font-weight: bold;
