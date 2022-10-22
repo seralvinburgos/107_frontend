@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap'); 
 
 .footer {
-    height: 10rem;
+    height: 4.8rem;
     display: flex;
     flex-direction: row;
     background-color: black;
@@ -14,6 +14,16 @@
     position: absolute;
     bottom: auto;
 } 
+.footer li {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+} 
+.signSect {
+    padding-top: 0.2rem;
+}
 .footer h6 {
     text-transform: uppercase;
 }
@@ -22,5 +32,9 @@
 }
 .subscribe .subInput {
     border-radius: 0;
+}
+.name {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
