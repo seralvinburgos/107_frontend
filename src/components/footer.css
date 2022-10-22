@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap'); 
 
 .footer {
-    height: 15rem;
+    height: 10rem;
     display: flex;
     flex-direction: row;
     background-color: black;
@@ -10,7 +10,9 @@
     font-family: 'Space Grotesk';
     color: white;
     margin-top: 2rem;
-    padding: 20px 10px 10px 10px;
+    padding: 20px 10px 10px 10px; 
+    position: absolute;
+    bottom: auto;
 } 
 .footer h6 {
     text-transform: uppercase;

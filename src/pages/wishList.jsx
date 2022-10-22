@@ -32,18 +32,17 @@ const WishList = () => {
                 </div>
             </div>
             <br /><br />
-            <div className="container col-6">
+            <div className="wish_back container col-6 shadow">
+                <br />
                 <div className="input-group mb-3">
                     <input type="text" className="form-control" id="wishInput" placeholder="Enter item here" aria-label="Enter item here" aria-describedby="button-addon2" onChange={handleTextChange} value = {text}/>
                     <button className="btn btn-outline-secondary" type="button" id="button-addon2" onClick={addToList}>Add</button>
                 </div>
-
                 <ul className="list-group">
-                    {list.map(t => <li className="list-group-item" key={t}>{t}</li>)}
+                    <br />
+                    {list.map(t => <li className="list-group-item rounded-0" key={t}>{t}</li>)}
                 </ul>
-            </div>
-            <div className="bottom-extra">
-
+                <br />
             </div>
         </motion.div>
     )

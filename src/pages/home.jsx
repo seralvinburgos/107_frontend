@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
       initial={{ opacity: 0 }} 
       animate={{ opacity: 1 }} 
       exit={{ opacity: 0 }} 
-      className="container-fluid">
+      className="body_page container-fluid">
          <div className="top_main container-xxl text-center mt-3">
                 <div className="d-flex flex-row admin-top mx-auto">
                     <motion.div 
@@ -153,9 +153,6 @@ import { motion } from "framer-motion";
                <img src="./images/thirdsect.jpg" className="d-block w-100 h-100" alt="third_section_right" />
             </div>
          </div>
-         </div>
-         <div className="extra_space">
-
          </div>
       </motion.div>
 

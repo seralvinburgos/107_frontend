@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 .catalog {
-    min-height: 500px;
+    padding-bottom: 20rem;
     font-family: 'Space Grotesk', sans-serif;
 }
 .admin-top img {

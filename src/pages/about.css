@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
+.about {
+    padding-bottom: 20rem;
+}
 .admin-top img {
     height: 140px;
     width: 100%;
     border-radius: 0;
     object-fit: cover;
- }
- .admin-top .top p {
  }
  .about .admin-top .top_2 .title {
     color: white;
@@ -15,7 +16,15 @@
     font-size: 3.5rem;
     text-transform: uppercase;
  }
- .bottom-extra {
-     height: 75rem;
-     background-color: azure;
- }
+.about_desc h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+.about_desc p {
+    padding: 0 8rem;
+    font-size: 1.5rem;
+}
+.about_desc {
+    font-family: 'Space Grotesk', sans-serif;
+}

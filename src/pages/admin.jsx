@@ -57,7 +57,7 @@ const Admin = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="container-fluid text-center mt-3">
+        className="admin_contain container-fluid text-center mt-3">
             <div className="d-flex flex-row admin-top mx-auto">
                 <div className="top_1 position-relative col-12">
                     <img src="./images/back2.jpg" className="img-fluid opacity-75" alt="back2" />
@@ -70,16 +70,16 @@ const Admin = () => {
             <br />
             <div className="container-xl">
             <div className="topHeaders d-inline-flex flex-row col-12 mx-auto gap-2">
-                <div className="sec-header col-6 border fw-bold mb-2">
+                <div className="sec-header col-6 border fw-bold mb-2 border-0 shadow">
                     <p className="fs-4 ">Products</p>
                 </div>
-                <div className="sec-header col-6 border fw-bold mb-2">
+                <div className="sec-header col-6 border fw-bold mb-2 border-0 shadow">
                     <p className="fs-4">Discounts</p>
                 </div>
             </div>
            
             <div className="bottom d-inline-flex flex-row col-12 mx-auto rounded gap-2">
-                <div className="sec-header col-6 d-flex flex-column border text-center">
+                <div className="sec-header col-6 d-flex flex-column border text-center border-0 shadow">
                     <section className="sec-product d-flex flex-column  justify-content-center col-10 mx-auto">
                         <br />
                     <div className="input-group flex-nowrap product-control col">
@@ -113,7 +113,7 @@ const Admin = () => {
                     </section>
                 </div>
 
-                <div className="sec-header col-6 d-flex flex-column border">
+                <div className="sec-header col-6 d-flex flex-column border border-0 shadow">
                     <section className="sec-discount d-flex flex-column justify-content-center col-10 mx-auto">
                     <br />
                     <div className="input-group flex-nowrap my-control col">
@@ -136,9 +136,6 @@ const Admin = () => {
                 </section>
                 </div>
             </div>
-            </div>
-            <div className="bottom-extra">
-            
             </div>
         </motion.div>
 

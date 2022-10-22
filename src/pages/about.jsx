@@ -18,8 +18,17 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="bottom-extra">
-
+            <div className="about_desc">
+                <br />
+                <br />
+                <h2>The DonutSHOP story</h2>
+                <br />
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam cupiditate fugit blanditiis odio atque earum. Quasi iusto nostrum nisi. Est aut nisi molestiae vel perspiciatis velit, dignissimos iusto odit, veniam consectetur nulla commodi! Voluptatem deleniti quam soluta dicta in quaerat.</p>
+                <br />
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati et exercitationem eum earum aliquid? Nobis animi vel dolorem ut id iusto, atque voluptatem consequatur, vitae eligendi molestiae iste officia temporibus mollitia eveniet error beatae quos consectetur, numquam quia. Deleniti, praesentium ex eligendi consequuntur voluptatum qui aperiam explicabo cupiditate enim sapiente facere fugiat odio porro hic quas unde laborum minus aliquam numquam commodi! Ipsum, necessitatibus nihil. Maxime ea recusandae odit, vero autem ex sint et, nesciunt tempora velit exercitationem a deserunt!</p>
+                <br />
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, exercitationem sint quasi ut nulla odit ipsa nisi quisquam eos corrupti deleniti ea illo assumenda eligendi, eveniet harum eius repudiandae cupiditate soluta beatae architecto. Distinctio cumque omnis possimus in. Eveniet, vitae.
+                </p>
             </div>
         </motion.div>
     );
