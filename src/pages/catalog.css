@@ -14,7 +14,7 @@
     background-color: azure;
 }
 .catalog .admin-top .top_2 .title {
-    color: white;
+    color: rgba(0, 0, 0, 0.679);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3.5rem;
     letter-spacing: 10px;

@@ -1,4 +1,5 @@
 import "./footer.css";
+import { Link } from 'react-router-dom';
 
 
 
@@ -6,10 +7,10 @@ function Footer() {
     return (
         <div className="footer fixed-bottom container-fluid">
             <div className="left_sid d-flex flex-row gap-4">
-                <li>Home</li>
-                <li>Catalog</li>
-                <li>Wish List</li>
-                <li>About</li>
+                <li><Link className="nav-link active" aria-current="page" to="/home">Home</Link></li>
+                <li><Link className="nav-link" to="/catalog">Catalog</Link></li>
+                <li><Link className="nav-link" to="/wish">Wish List</Link></li>
+                <li><Link className="nav-link" to="/about">About</Link></li>
             </div>
             <div className="middle-sec d-flex flex-row gap-4">
                 <div className="signSect">

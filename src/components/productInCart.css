@@ -1,0 +1,7 @@
+.cartCard {
+    background-color: white; 
+    height: 6.8rem;
+}
+.cartCard img {
+    scale: 0.8;
+}

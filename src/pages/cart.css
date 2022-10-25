@@ -17,14 +17,41 @@
     text-align: center;
 } 
 .cartProductList {
-    height: 25rem;
+    height: 65rem;
     background-color: white;
 }
-.cart .products li {
-    list-style: none;
-
+.cartProductList h4 {
+    padding-left: 1rem;
 }
 .products {
+    padding: 1rem;
+    background-color: rgba(196, 242, 242, 0.73);  
+}
+.products ul {
+    margin-left: -2rem;
+
+}
+.cartPricesList {
+    height: 15rem;
+    background-color: white;
+}
+.cartPricesList .cartPrice h4 {
+    text-align: right;
+    padding-right: 1rem;
+}
+.cartPricesList .cartPrice li {
+    list-style: none;
+    text-align: right;
+    padding-right: 1rem;
+}
+.cartPrice {
     padding: 1rem 1rem;
+}
+.cartPrice h5 {
+    text-align: right;
+    padding-right: 1rem;
+} 
+.payNow {
+    align-items: center;
 }
 

@@ -8,10 +8,18 @@ function NavBar() {
     const user = useContext(StoreContext).user;
     const cart = useContext(StoreContext).cart;
 
+    const getCount = () => {
+      let count = 0;
+      for (let i = 0; i < cart.length; i++) {
+        count += cart[i].quantity;
+      }
+      return count; 
+    };
+
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
           <div className="container-fluid">
-            <Link className="navbar-brand disabled" id="title">DonutSHOP</Link>
+            <Link className="navbar-brand" id="title" to="/home">DonutSHOP</Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -35,7 +43,7 @@ function NavBar() {
               </ul>
               <form className=" form d-flex" role="search">
                 <Link className="btn btn-outline-light me-1" id="searchBtn" to="/cart">
-                  <span className="badge text-bg-danger me-2">{cart.length}</span>
+                  <span className="badge text-bg-danger me-2">{getCount()}</span>
                   <i className="fa fa-shopping-cart me-1" aria-hidden="true"></i></Link>
 
                   <label className="mx-3 py-2" id="userName">{user.name}</label>

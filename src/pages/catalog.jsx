@@ -23,7 +23,7 @@ function Catalog() {
             <div className="container-fluid text-center mt-3">
                 <div className="d-flex flex-row admin-top mx-auto">
                     <div className="top-1 position-relative col-12">
-                        <img src="./images/back7.jpg" className="img-fluid opacity-75" alt="back4" />
+                        <img src="./images/back12.jpg" className="img-fluid opacity-75" alt="back4" />
                             <div className="top_2 position-absolute top-50 start-50">
                                 <p className="title">Freshly-Made</p>
                             </div>
