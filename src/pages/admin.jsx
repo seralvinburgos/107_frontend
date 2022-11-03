@@ -1,6 +1,7 @@
 import "./admin.css";
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
+import Dataservice from "../services/dataService";
 
 const Admin = () => {
     const [coupon, setCoupon] = useState({});
@@ -10,6 +11,35 @@ const Admin = () => {
     const [allProducts, setAllProducts] = useState([]);
 
 
+    useEffect(() => {
+        loadCoupons();
+        loadProducts();
+    }, []);
+
+    const loadCoupons = async () => {
+        let service = new Dataservice();
+        let list = await service.getCoupons();
+        setAllCoupons(list);
+    };
+
+    const loadProducts = async () => {
+        let service = new Dataservice
+        let prods = await service.getCatalog();
+        setAllProducts(prods);
+    };
+
+/**
+ *prods effect calls loadCoupons
+ * 
+ * loadCouons creates a service instance
+ * calls the getCoupons method
+ * 
+ * on dataService.js create getCoupons
+ * 
+ * 
+ * on loadCoupons 
+ * the result of getting coupons should be set to allCoupons state variable
+ */
     
 
         const handleCouponChange = (e) => {
@@ -21,10 +51,16 @@ const Admin = () => {
             setCoupon(copy);
         };
 
-        const saveCoupon = () => {
+        const saveCoupon = async () => {
             let copy = {...coupon};
             copy.discount = parseFloat(copy.discount);
 
+            // send to server
+            let service = new Dataservice
+            let c = await service.saveCoupon(copy);
+            console.log(c);
+
+            // add to list
             let couponList = [...allCoupons];
             couponList.push(copy);
             setAllCoupons(couponList);
@@ -42,9 +78,14 @@ const Admin = () => {
             setProduct(copy);
         };
 
-        const saveProduct = () => {
+        const saveProduct = async () => {
             let copy = {...product};
             copy.price = parseFloat(copy.price);
+
+            // save on server
+            let service = new Dataservice
+            let prod = await service.saveProduct(copy);
+            console.log(prod);
 
             let productList = [...allProducts];
             productList.push(copy);

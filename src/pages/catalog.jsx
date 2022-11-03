@@ -8,11 +8,15 @@ function Catalog() {
     const [products, setProducts] = useState([]);
     // use effect
     // to do something when the component is loaded
-    useEffect(() => {
-        let service = new Dataservice();
-        let result = service.getCatalog();
-        setProducts(result);
+    useEffect( () => {
+    loadData();   
     }, []);
+
+    const loadData = async () => {
+        let service = new Dataservice();
+        let result = await service.getCatalog();
+        setProducts(result);
+    }
 
     return (
         <motion.div 
